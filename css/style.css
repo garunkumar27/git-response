@@ -1,0 +1,408 @@
+.fontAmatic{
+    font-family:"Amatic SC", sans-serif;;
+}
+.fontopensans{
+    font-family: Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+ "Segoe UI Symbol", "Noto Color Emoji";
+}
+.fixed-container {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.navigation {
+    width: auto;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(70, 54, 54);
+}
+.navigation-logo {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.navigation-logo h3 span a {
+    text-decoration: none;
+    color: #ce1212;
+}
+.navigation-bar {
+    display: none;
+}
+.book-table {
+    padding: 20px;
+    margin-top: 10px;
+}
+.book-table a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ce1212;
+    text-decoration: none;
+    border-radius: 22px;
+    padding: 10px;
+    font-size: 17px;
+}
+.book-table i {
+    margin-left: 15px;
+    font-size: 25px;
+}
+/* HEALTHY */
+.container{
+    /* width: 100%; */
+    padding-top: 130px;
+}
+.healthy{
+    /* width: 90%; */
+    margin: auto;
+}
+.healthy-left {
+    text-align: center;
+    margin: auto;
+}
+.healthy-image{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.healthy-img {
+    width: 80%;
+}
+.healthy-lefthead {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #37373f;
+    font-family: "Amatic SC", sans-serif;
+}
+.healthy-lefttext {
+    margin: auto;
+    font-size: 19px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.book-watch{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.book-a-table{
+    color: #fff;
+    background-color: #c62424;
+    text-decoration: none;
+    border-radius: 22px;
+    font-size: 19px;
+    text-align: center;
+    padding: 10px;
+}
+.book-watch i{
+    font-size: 35px;
+    color:#ce1212;
+    margin-left: 20px;
+}
+.watch-video{
+    color: rgb(0,0,0);
+    font-size: 18px;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.book-watch .book-a-table:hover{
+    background-color: #bc4343;
+    transition: 0.6s;
+}
+.watch-video:hover{
+    color: #ce1212;
+    transition: 0.6s;
+}
+@media(min-width:576px) {
+    .fixed-container {
+        width: 100%;
+        position: fixed;
+        margin: auto;
+        z-index: 99;
+    }
+
+    .navigation {
+        width: auto;
+        margin: auto;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(70, 54, 54);
+    }
+
+    .navigation-logo {
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .navigation-logo h3 span a {
+        text-decoration: none;
+        color: #ce1212;
+    }
+    .navigation-bar {
+        display: none;
+    }
+
+    .book-table {
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .book-table a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ce1212;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .book-table i {
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    /* HEALTHY */
+    .container{
+        width: 100%;
+        padding-top: 130px;
+        margin: auto;
+    }
+    .healthy{
+        margin: auto;
+    }
+    .healthy-left {
+        text-align: center;
+        margin: auto;
+    }
+    .healthy-image{
+        width: 576px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .healthy-img {
+        height: 450px;
+        width: 450px;
+        background-position: center;
+    }
+    .healthy-lefthead {
+        width: 180px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 32px;
+        color: #37373f;
+        
+    }
+    .fontAmatic{
+        font-family:"Amatic SC", sans-serif;;
+    }
+    .fontopensans{
+        font-family: Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .healthy-lefttext {
+        margin: auto;
+        font-size: 19px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .book-watch{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .book-a-table{
+        color: #fff;
+        background-color: #c62424;
+        text-decoration: none;
+        border-radius: 22px;
+        font-size: 19px;
+        text-align: center;
+        padding: 10px;
+    }
+    .book-watch i{
+        font-size: 35px;
+        color:#ce1212;
+        margin-left: 20px;
+    }
+    .watch-video{
+        color: rgb(0,0,0);
+        font-size: 18px;
+        transition: 0.5s;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .book-watch .book-a-table:hover{
+        background-color: #bc4343;
+        transition: 0.6s;
+    }
+    .watch-video:hover{
+        color: #ce1212;
+        transition: 0.6s;
+    }
+}
+@media(min-width:641px){
+    .healthy-lefthead {
+        width: 500px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 64px;
+        font-weight: 700;
+        color: #37373f;;
+    }
+    .fontAmatic{
+        font-family:"Amatic SC", sans-serif;
+    }
+    .fontopensans{
+        font-family: Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+    }
+}
+
+@media(min-width:768px) {
+    .fixed-container {
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        margin: auto;
+    }
+    .fontAmatic{
+        font-family:"Amatic SC", sans-serif;
+    }
+    .fontopensans{
+        font-family: Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .navigation {
+        width:auto;
+        margin: auto;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(70, 54, 54);
+    }
+
+    .navigation-logo {
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .navigation-logo h3 span a {
+        text-decoration: none;
+        color: #ce1212;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+
+    .book-table {
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .book-table a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ce1212;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .book-table i {
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    /* HEALTHY */
+    .container{
+        padding-top: 130px;
+        margin: auto;
+        width: 100%;
+    }
+    .healthy{
+        width: 90%;
+        margin: auto;
+    }
+    .healthy-image{
+        width: 720px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .healthy-img {
+        width: 550px;
+        height: 550px;
+    }
+    .healthy-left {
+        text-align: center;
+        margin: auto;
+    }
+    .healthy-lefthead {
+        width: 450px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 64px;
+        color: #37373f;
+        font-family: "Amatic SC", sans-serif;
+    }
+
+    .healthy-lefttext {
+        margin: auto;
+        font-size: 21px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .book-watch{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .book-a-table{
+        color: #fff;
+        background-color: #c62424;
+        text-decoration: none;
+        border-radius: 22px;
+        font-size: 19px;
+        text-align: center;
+        padding: 10px;
+    }
+    .book-watch i{
+        font-size: 35px;
+        color:#ce1212;
+        margin-left: 20px;
+    }
+    .watch-video{
+        color: rgb(0,0,0);
+        font-size: 18px;
+        transition: 0.5s;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .book-watch .book-a-table:hover{
+        background-color: #bc4343;
+        transition: 0.6s;
+    }
+    .watch-video:hover{
+        color: #ce1212;
+        transition: 0.6s;
+    }
+}
