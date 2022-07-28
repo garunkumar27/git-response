@@ -16,7 +16,7 @@
     height: 90px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(70, 54, 54);
+    background-color: #fff;
 }
 .navigation-logo {
     font-size: 25px;
@@ -140,7 +140,7 @@
         height: 90px;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(70, 54, 54);
+        background-color: #fff;
     }
 
     .navigation-logo {
@@ -303,7 +303,7 @@
         height: 90px;
         display: flex;
         justify-content: space-between;
-        background-color: rgb(70, 54, 54);
+        background-color: #fff;
     }
 
     .navigation-logo {
@@ -441,7 +441,7 @@
         height: 90px;
         display: flex;
         justify-content: space-evenly;
-        background-color: rgb(70, 54, 54);
+        background-color: #fff;
     }
 
     .navigation-logo {
@@ -564,4 +564,189 @@
         color: #ce1212;
         transition: 0.6s;
     }   
+}
+@media(min-width:1200px){
+    .fixed-container {
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+        margin: auto;
+    }
+    .fontAmatic{
+        font-family:"Amatic SC", sans-serif;
+    }
+    .fontopensans{
+        font-family: Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+     "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .navigation {
+        width:auto;
+        margin: auto;
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #fff
+    }
+
+    .navigation-logo {
+        font-size: 28px;
+        padding: 20px;
+        text-align: center;
+        width: 20%;
+    }
+
+    .navigation-logo h3 span a {
+        text-decoration: none;
+        color: #ce1212;
+    }
+
+    .navigation-bar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        
+    }
+    .navigation-bar li{
+        list-style: none;
+    }
+    .navigation-bar li a{
+        text-decoration: none;
+        display: inline-block;
+        color: rgb(74, 65, 65);
+        padding: 15px;
+        font-size: 19px;
+        margin-top: 20px;
+        font-weight: 700;
+
+    }
+    .navigation-bar li a:hover{
+        color: rgb(0, 0, 0);
+        font-weight: 540;
+        
+    }
+    .active{
+        position: relative;
+    }
+    .active::after{
+        content:"";
+        display: inline-block;
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #ce1212;
+        transition: all 0.2s;
+    }
+    .active:hover:after{
+        width: 100%;
+    }
+
+    .book-table {
+        padding: 20px;
+        display: flex;
+        margin-top: 10px;
+        width: 10%;
+
+    }
+
+    .book-table a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #ce1212;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .book-table i {
+        display: none;
+    }
+    .book-table a:hover{
+        background-color: #bc4343;
+        transition: 0.6s;
+    }   
+
+    /* HEALTHY */
+    .container{
+        padding-top: 130px;
+        margin: auto;
+        width: 100%;
+        background-color: #EEEEEE;
+    }
+    .healthy{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .healthy-image{
+        width: 1170px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .healthy-img {
+        width: 395px;
+        height: 385px;
+    }
+    .healthy-left {
+        text-align: center;
+        margin: auto;
+    }
+    .healthy-lefthead {
+        width: auto;
+        margin: 0 15px;
+        margin-top: 20px;
+        text-align: left;
+        font-size: 64px;
+        color: #37373f;
+        font-family: "Amatic SC", sans-serif;
+    }
+
+    .healthy-lefttext {
+        margin: auto;
+        font-size: 21px;
+        margin-top: 10px;
+        text-align: left;
+        color: #4f4f5a;
+        padding: 20px;
+    }
+    .book-watch{
+        display: flex;
+        justify-content: unset;
+        padding: 10px;
+    }
+    .book-a-table{
+        color: #fff;
+        background-color: #c62424;
+        text-decoration: none;
+        border-radius: 22px;
+        font-size: 19px;
+        text-align: center;
+        padding: 10px;
+    }
+    .book-watch i{
+        font-size: 35px;
+        color:#ce1212;
+        margin-left: 20px;
+    }
+    .watch-video{
+        color: rgb(0,0,0);
+        font-size: 18px;
+        transition: 0.5s;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .book-watch .book-a-table:hover{
+        background-color: #bc4343;
+        transition: 0.6s;
+    }
+    .watch-video:hover{
+        color: #ce1212;
+        transition: 0.6s;
+    }
 }
