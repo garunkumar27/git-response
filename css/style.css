@@ -657,95 +657,96 @@
         color: #ce1212;
         transition: 0.6s;
     }
-        /* ABOUT */
-        .about-us {
-            width: auto;
-            margin: auto;
-            margin-top: 50px;
-        }
-    
-        .about-header {
-            text-align: center;
-            width: 100%;
-            padding-bottom: 20px;
-        }
-    
-        .about-header h2 {
-            font-size: 13px;
-            letter-spacing: 1px;
-            color: #7f7f90;
-        }
-    
-        .about-header p {
-            font-size: 48px;
-            color: #37373f;
-            margin: auto;
-            padding: 10px;
-        }
-    
-        .red-about {
-            font-size: 48px;
-            color: #ce1212;
-            margin: auto;
-        }
-    
-        .about-img1 {
-            align-items: center;
-            min-height: auto;
-            position: relative;
-            padding-bottom: 20px;
-            margin: auto;
-        }
-    
-        .about-whitebox {
-            position: absolute;
-            outline: 2px solid #fff;
-            background: #fff;
-            width: 80%;
-            height: 26%;
-            left: 54px;
-            bottom: 75px;
-            text-align: center;
-        }
-    
-        .about-whitebox h2 {
-            padding-top: 15px;
-            line-height: 1.8;
-            font-size: 26px;
-            color: #212529;
-        }
-    
-        .about-whitebox p {
-            font-size: 26px;
-            color: #ce1212;
-            font-weight: 700;
-        }
-    
-        .about-right-top {
-            font-size: 19px;
-            font-style: italic;
-            margin: 18px;
-            color: #212529;
-        }
-    
-        .points {
-            font-style: normal;
-            padding: 8px;
-        }
-    
-        .points i {
-            color: rgb(235, 77, 20);
-            font-size: 22px;
-        }
-    
-        .about-righttop-text {
-            font-style: normal;
-        }
-    
-        .about-img2 {
-            width: auto;
-            margin: auto;
-        }
+
+    /* ABOUT */
+    .about-us {
+        width: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .about-header {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .about-header h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: #7f7f90;
+    }
+
+    .about-header p {
+        font-size: 48px;
+        color: #37373f;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .red-about {
+        font-size: 48px;
+        color: #ce1212;
+        margin: auto;
+    }
+
+    .about-img1 {
+        align-items: center;
+        min-height: auto;
+        position: relative;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    .about-whitebox {
+        position: absolute;
+        outline: 2px solid #fff;
+        background: #fff;
+        width: 80%;
+        height: 26%;
+        left: 54px;
+        bottom: 75px;
+        text-align: center;
+    }
+
+    .about-whitebox h2 {
+        padding-top: 15px;
+        line-height: 1.8;
+        font-size: 26px;
+        color: #212529;
+    }
+
+    .about-whitebox p {
+        font-size: 26px;
+        color: #ce1212;
+        font-weight: 700;
+    }
+
+    .about-right-top {
+        font-size: 19px;
+        font-style: italic;
+        margin: 18px;
+        color: #212529;
+    }
+
+    .points {
+        font-style: normal;
+        padding: 8px;
+    }
+
+    .points i {
+        color: rgb(235, 77, 20);
+        font-size: 22px;
+    }
+
+    .about-righttop-text {
+        font-style: normal;
+    }
+
+    .about-img2 {
+        width: auto;
+        margin: auto;
+    }
 }
 
 @media(min-width:992px) {
@@ -905,6 +906,96 @@
     .watch-video:hover {
         color: #ce1212;
         transition: 0.6s;
+    }
+
+    /* ABOUT */
+    .about-us {
+        width: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .about-header {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .about-header h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: #7f7f90;
+    }
+
+    .about-header p {
+        font-size: 48px;
+        color: #37373f;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .red-about {
+        font-size: 48px;
+        color: #ce1212;
+        margin: auto;
+    }
+
+    .about-img1 {
+        align-items: center;
+        min-height: auto;
+        position: relative;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    .about-whitebox {
+        position: absolute;
+        outline: 2px solid #fff;
+        background: #fff;
+        width: 80%;
+        height: 26%;
+        left: 54px;
+        bottom: 75px;
+        text-align: center;
+    }
+
+    .about-whitebox h2 {
+        padding-top: 15px;
+        line-height: 1.8;
+        font-size: 26px;
+        color: #212529;
+    }
+
+    .about-whitebox p {
+        font-size: 26px;
+        color: #ce1212;
+        font-weight: 700;
+    }
+
+    .about-right-top {
+        font-size: 19px;
+        font-style: italic;
+        margin: 18px;
+        color: #212529;
+    }
+
+    .points {
+        font-style: normal;
+        padding: 8px;
+    }
+
+    .points i {
+        color: rgb(235, 77, 20);
+        font-size: 22px;
+    }
+
+    .about-righttop-text {
+        font-style: normal;
+    }
+
+    .about-img2 {
+        width: auto;
+        margin: auto;
     }
 }
 
@@ -1111,5 +1202,95 @@
     .watch-video:hover {
         color: #ce1212;
         transition: 0.6s;
+    }
+
+    /* ABOUT */
+    .about-us {
+        width: auto;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .about-header {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .about-header h2 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: #7f7f90;
+    }
+
+    .about-header p {
+        font-size: 48px;
+        color: #37373f;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .red-about {
+        font-size: 48px;
+        color: #ce1212;
+        margin: auto;
+    }
+
+    .about-img1 {
+        align-items: center;
+        min-height: auto;
+        position: relative;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+
+    .about-whitebox {
+        position: absolute;
+        outline: 2px solid #fff;
+        background: #fff;
+        width: 80%;
+        height: 26%;
+        left: 54px;
+        bottom: 75px;
+        text-align: center;
+    }
+
+    .about-whitebox h2 {
+        padding-top: 15px;
+        line-height: 1.8;
+        font-size: 26px;
+        color: #212529;
+    }
+
+    .about-whitebox p {
+        font-size: 26px;
+        color: #ce1212;
+        font-weight: 700;
+    }
+
+    .about-right-top {
+        font-size: 19px;
+        font-style: italic;
+        margin: 18px;
+        color: #212529;
+    }
+
+    .points {
+        font-style: normal;
+        padding: 8px;
+    }
+
+    .points i {
+        color: rgb(235, 77, 20);
+        font-size: 22px;
+    }
+
+    .about-righttop-text {
+        font-style: normal;
+    }
+
+    .about-img2 {
+        width: auto;
+        margin: auto;
     }
 }
